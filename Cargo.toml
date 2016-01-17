@@ -1,0 +1,11 @@
+[package]
+name = "choice-bot"
+version = "0.1.0"
+authors = ["Wraithan (Chris McDonald) <xwraithanx@gmail.com>"]
+
+[dependencies]
+serde_json = "0.6.0"
+
+[dependencies.amqp]
+version = "0.0.13"
+default-features = false
